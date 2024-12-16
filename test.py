@@ -40,7 +40,9 @@ def test():
     # Mostrar comandes dels clients
     print("COMANDES DELS CLIENTS")
     print(anna.consultar_comandes())
+    print("\n")
     print(pere.consultar_comandes())
+    print("\n")
     print(joan.consultar_comandes())
 
     # Gestionar errors

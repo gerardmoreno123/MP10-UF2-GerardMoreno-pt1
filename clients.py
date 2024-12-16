@@ -5,11 +5,12 @@ class Client:
         self.email = email
         self.comandes = []
 
+    # Afegir comanda al client
     def afegir_comanda(self, comanda):
         self.comandes.append(comanda)
 
+    # Consultar comandes del client
     def consultar_comandes(self):
         if not self.comandes:
             return f"El client {self.nom} no té cap comanda."
         return f"Comandes del client {self.nom}: {len(self.comandes)}\n" + "\n".join(str(comanda) for comanda in self.comandes)
-

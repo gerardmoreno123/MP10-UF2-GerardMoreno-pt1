@@ -3,3 +3,6 @@ class ProducteExistentError(Exception):
 
 class ProducteInexistentError(Exception):
     pass
+
+class ClientInexistentError(Exception):
+    pass
